@@ -1,0 +1,175 @@
+@media screen and (min-width: 375px) {
+    .todo__item {
+        background-color: rgb(201, 225, 252);
+        border-radius: 6px;
+        box-shadow: 0 0 4px rgb(177, 177, 177);
+
+    }
+
+    .todo__item:not(:first-child) {
+        margin-top: 10px;
+    }
+
+    .item__inProgress, .item__changing {
+        display: flex;
+        align-items: center;
+        min-height: 34px;
+        font-size: 18px;
+        color: rgb(58, 58, 58);
+        justify-content: space-between;
+    }
+
+    .item__changing {
+        padding: 0 10px 0 30px;
+    }
+
+    .changing__input {
+        width: 50%;
+        height: 30px;
+        border: 2px solid rgb(205, 205, 205);
+        border-radius: 6px;
+        color: rgb(58, 58, 58);
+    }
+
+    .changing__input::placeholder {
+        font-size: 18px;
+        padding-left: 10px;
+    }
+
+    .changing__button {
+        height: 85%;
+        background-color: rgb(106, 169, 224);
+        color: rgb(240, 240, 240);
+        border: transparent;
+        border-radius: 6px;
+        height: 30px;
+    }
+
+    .inProgress__name {
+        display: flex;
+        align-items: center;
+    }
+
+    .inProgress__title {
+        padding-left: 30px;
+        cursor: pointer;
+        max-width: 204px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .inProgress__buttons {
+        display: flex;
+        height: 30px;
+        padding-right: 10px;
+    }
+
+    .inProgress__edit, .inProgress__remove, .changing__button {
+        width: 34px;
+        font-size: 20px;
+        line-height: 0;
+        color: white;
+        cursor: pointer;
+        border-radius: 6px;
+    }
+
+    .inProgress__edit {
+        border: 2px solid rgb(32, 174, 32);
+        background-color: rgb(55, 226, 55);
+
+    }
+
+    .inProgress__remove {
+        margin-left: 10px;
+        border: 2px solid rgb(164, 4, 4);
+        background-color: rgb(245, 5, 5);
+    }
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .todo__item {
+        background-color: rgb(201, 225, 252);
+        border-radius: 6px;
+        box-shadow: 0 0 4px rgb(177, 177, 177);
+
+    }
+
+    .todo__item:not(:first-child) {
+        margin-top: 8px;
+    }
+
+    .item__inProgress, .item__changing {
+        display: flex;
+        align-items: center;
+        min-height: 44px;
+        font-size: 24px;
+        color: rgb(58, 58, 58);
+        justify-content: space-between;
+    }
+
+    .item__changing {
+        padding: 0 10px 0 70px;
+    }
+
+    .changing__input {
+        width: 50%;
+        height: 30px;
+        border: 2px solid rgb(205, 205, 205);
+        border-radius: 6px;
+        font-size: 24px;
+        color: rgb(58, 58, 58);
+    }
+
+    .changing__input::placeholder {
+        font-size: 18px;
+        padding-left: 10px;
+    }
+
+    .changing__button {
+        height: 38px;
+        background-color: rgb(106, 169, 224);
+        color: rgb(240, 240, 240);
+        border: transparent;
+        border-radius: 6px;
+    }
+
+    .inProgress__name {
+        display: flex;
+        align-items: center;
+    }
+
+    .inProgress__title {
+        padding-left: 60px;
+        cursor: pointer;
+        max-width: 600px;
+    }
+
+    .inProgress__buttons {
+        display: flex;
+        height: 38px;
+        padding-right: 10px;
+    }
+
+    .inProgress__edit, .inProgress__remove, .changing__button {
+        width: 40px;
+        font-size: 26px;
+        line-height: 0;
+        color: white;
+        cursor: pointer;
+        border-radius: 6px;
+    }
+
+    .inProgress__edit {
+        border: 2px solid rgb(32, 174, 32);
+        background-color: rgb(55, 226, 55);
+
+    }
+
+    .inProgress__remove {
+        margin-left: 10px;
+        border: 2px solid rgb(164, 4, 4);
+        background-color: rgb(245, 5, 5);
+    }
+}
