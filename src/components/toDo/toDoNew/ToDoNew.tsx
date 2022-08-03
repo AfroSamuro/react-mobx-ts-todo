@@ -8,7 +8,7 @@ export const TodoNew = () => {
     const todoList = useStore();
 
     const addTodo = () => {
-        if (newTodo === '') return
+        if (newTodo.trim() === '') return
         todoList.addTodo(newTodo);
         setTodo('');
     };
